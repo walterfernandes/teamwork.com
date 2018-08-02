@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDCategory" representedClassName="CDCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDCompany" representedClassName="CDCompany" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOwner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDProject" representedClassName="CDProject" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="CDCategory" positionX="25" positionY="-30" width="128" height="73"/>
+        <element name="CDCompany" positionX="27" positionY="-144" width="128" height="88"/>
+        <element name="CDProject" positionX="-153" positionY="-144" width="128" height="43"/>
+    </elements>
+</model>
